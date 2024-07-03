@@ -17,6 +17,8 @@ namespace BranchTesting.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            var Alex = "Alex's Branch";
+
             return View();
         }
 
