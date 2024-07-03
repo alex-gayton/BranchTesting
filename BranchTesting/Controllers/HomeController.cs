@@ -17,6 +17,8 @@ namespace BranchTesting.Controllers
         {
             ViewBag.Message = "Your application description page.";
 
+            var Main = "This is the main/master branch";
+
             return View();
         }
 
